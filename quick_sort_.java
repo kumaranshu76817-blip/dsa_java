@@ -24,7 +24,7 @@ public class quick_sort_ {
             quicksort(arr, pivot + 1, high);
         }
     }
-
+    //time complexity of o(n^2);
     public static void main(String[] args) {
         int arr[] = { 2, 5, 3, 9, 8, 6 };
         int n = arr.length;
