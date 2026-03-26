@@ -1,6 +1,6 @@
 public class linkedlist_01_ {
 
-    Node head;  // ✅ correct place
+    Node head;  
     private int size;
     linkedlist_01_(){
         this.size = 0;
@@ -38,7 +38,7 @@ public class linkedlist_01_ {
         }
 
         Node currNode = head;
-        while(currNode.next != null){   // ✅ fixed
+        while(currNode.next != null){   
             currNode = currNode.next;
         }
         currNode.next = newNode;
@@ -95,7 +95,7 @@ public class linkedlist_01_ {
     public static void main(String[] args) {
         linkedlist_01_ list = new linkedlist_01_();
 
-        list.addFirst("a");   // ✅ fixed
+        list.addFirst("a");  
         list.addFirst("is");
 
         list.printList();
