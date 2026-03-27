@@ -1,6 +1,6 @@
 public class linkedlist_01_ {
 
-    Node head;  
+    Node head;  //  correct place
     private int size;
     linkedlist_01_(){
         this.size = 0;
@@ -95,7 +95,7 @@ public class linkedlist_01_ {
     public static void main(String[] args) {
         linkedlist_01_ list = new linkedlist_01_();
 
-        list.addFirst("a");  
+        list.addFirst("a");   
         list.addFirst("is");
 
         list.printList();

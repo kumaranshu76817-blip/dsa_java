@@ -1,2 +1,2 @@
-Animal animal = new Animal();
-        // animal.walk();
+        // list.revsIterate();
+        // list.printList();
