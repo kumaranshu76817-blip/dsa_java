@@ -1,3 +1,5 @@
+//perorder traversal
+//inorder traversal
 //postorder traversal
 
 import org.w3c.dom.Node;
@@ -30,6 +32,28 @@ public class binaryTrees_04 {
             return newNode;
         }
     }
+
+     //time complexity big 0(n);
+    public static void perorder(Node root){
+        if(root == null){
+            return;
+        }
+        System.out.print(root.data+" ");
+        perorder(root.left);
+        perorder(root.right);
+
+
+    }
+
+     //inorder traversal;
+    public static void inorder(Node root){
+            if(root == null){
+                return;
+            }
+            inorder(root.left);
+            System.out.print(root.data+" ");
+            inorder(root.right);
+        }
 
     // postorder
     public static void postorder(Node root) {
